@@ -1,0 +1,62 @@
+body{
+  font-family: Muli, sans-serif;
+  text-align: justify;
+  background-color:#E5DADA;
+}
+#main{
+  margin: auto;
+  max-width: 50%;
+  color: #02040F;
+}
+#honor, #title, #img-caption, h2{
+  text-align: center;
+}
+#honor{
+  line-height:1px;
+  font-size:2em;
+  opacity:0.7;
+}
+a{
+  text-decoration: none;
+  color: #0000FF;
+}
+a:hover{
+  color:#840032;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border-radius:50%;
+}
+blockquote{
+  background-color:#D1C7C7;
+  font-family: Amita, sans-serif;
+  padding:1px 20px 20px 20px;
+  border-radius:10px;
+}
+div{
+  background-color:#D1C7C7;
+  padding-top:20px;
+  padding-right:20px;
+  padding-bottom:5px;
+  padding-left:20px;
+  border-radius:5px;
+}
+blockquote:hover{
+  animation-name:hov;
+  animation-duration:500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes hov{
+  100%{
+  background-color:#02040F;
+  color:#D1C7C7;
+  }
+}
+li{
+  font-weight:bold;
+}
+li > p {
+  font-weight:normal;
+}
