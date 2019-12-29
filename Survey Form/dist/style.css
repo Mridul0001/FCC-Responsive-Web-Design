@@ -1,0 +1,40 @@
+body{
+  background-color:#222831;
+  text-align:justify;
+  font-family:'Poppins', sans-serif;
+  font-size:1.5vw;
+}
+#main{
+  max-width:50%;
+  margin:auto;
+  background-color:#393e46;
+  padding:50px;
+  color:#eeeeee;
+}
+#name, #email, #number, #dropdown, #text-area, #submit{
+  padding:10px;
+  border-radius:5px;
+  border-style:solid;
+  border-color:#393e46;
+  width:100%;
+  box-sizing:border-box;
+}
+h1, #description{
+  text-align:center;
+}
+button{
+  border-style:solid;
+  background-color:#00adb5;
+  border-radius:5px;
+  padding:10px;
+}
+button:hover{
+  background-color:hsl(195, 100%, 40%)
+;
+}
+input[type="radio"], input[type="checkbox"]{
+  transform:scale(1.5);
+}
+.radiobutton, .check{
+  margin:10px;
+}
